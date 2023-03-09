@@ -3,22 +3,23 @@
 <head>
 <meta charset="utf-8">
 <title>index</title>
-
+<link rel="icon" href="images/favicon.png" type="image/x-icon">
 <style>
 #wrapper
 	{
 		
-	width: 1000px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+		width: 1000px;
+		margin-left: auto;
+		margin-right: auto;
+		margin-top: 20px;
+		margin-bottom: 20px;
 		
 	}
-	body {font-family: 'Lucida Grande', monospace;
+body 	{font-family: 'Lucida Grande', 				monospace;
 		background-color: #E0E0E0;
 	}
-header {padding-top: 50px;
+header {	
+		padding-top: 50px;
 		background-image: url("images/intdev.png");
 		clear: both;
 		height: 100px;
@@ -37,7 +38,7 @@ main {
 			margin-top: 200px;
 		}
 	
-ul {
+nav ul {
 			list-style-type: none;
 			font-display: block; 
 			margin:0;
@@ -50,20 +51,21 @@ ul {
 		
 		}
 img { 		border: 1px solid #2D8278;
-	 		 border-radius: 4px;
-	 		 padding: 5px;
-	 		 width: 350px;
+	 		border-radius: 4px;
+	 		padding: 5px;
+	 		width: 350px;
 			margin-left: 50px;
-			margin-top: 20px}
+			margin-top: 20px;
+	}
 			
-li {		
+nav li {		
 			display: inline;
 			float:left;
 			border: 1px solid #2D8278;
 			
 		}
 		
-li a {
+nav li a {
 			color: #ffffff;
 			text-align: center;
 			display:block;			
@@ -81,33 +83,36 @@ li a {
 			color: #2D8278;
 		}
 		
-li 		 a:hover {
-    	color: #2D8278;
+nav li 			 a:hover {
+    		color: #2D8278;
 		}
 	
-aside {margin-top: 20px;
-		background-color:  #C3D5CF;
-		text-align: center;
-		border: ridge black;
+aside {		margin-top: 20px;
+			background-color:  #C3D5CF;
+			text-align: center;
+			border:10px ridge #000000;
+			border-color: #2D8278;
+	
+		
 	}
 	
-	main 	{
-		margin-top: 20px;
-	}
+main 	{
+			margin-top: 20px;
+		}
 	
 table,th,td {
-	background-color:  #C3D5CF;
-	border:1.5px solid #000000;
-	border-color: #2D8278;
-	border-style: solid;
-	border-width: 3px;
-	border-collapse:collapse;
-	font-size: 100%;
-	padding-bottom: 20px;
-	padding-top: 20px;
-	text-decoration: none;
-	padding-left: 30px;
-	padding-right: 30px;
+		background-color:  #C3D5CF;
+		border:1.5px solid #000000;
+		border-color: #2D8278;
+		border-style: solid;
+		border-width: 3px;
+		border-collapse:collapse;
+		font-size: 100%;
+		padding-bottom: 20px;
+		padding-top: 20px;
+		text-decoration: none;
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 	
 th {background-color: #000000;
@@ -116,16 +121,31 @@ th {background-color: #000000;
 	font-size: 200%;
 	}
 	
-td {
+h4 {border: solid 3px #2D8278 ;
+	background-color: black;
+	color: #FFFFFF;
+	padding: 10px;
+	margin-left: 80px;
+	margin-right: 80px;
+	font-size: 86%;
+	text-decoration: none;
 		}
-p {
-	padding-top: 50px;
-	}	
+
+.conclusion
+	{	
+	margin-top: 20px;
+			background-color:  #C3D5CF;
+	padding-left: 40px;
+		padding-right: 40px;
+			border:10px ridge #000000;
+			border-color: #2D8278;
 	
+	
+	}
 footer{
 		clear: both;
 		height: 100px;
-	background-image: url("images/foot.png");
+		background-image: url("images/foot.png");
 		background-repeat: no-repeat;
 		background-position: bottom right;
 		padding-top: 100px;
@@ -159,14 +179,14 @@ a:link
           </ul>
 		</nav>
 		<aside> 
-				<h4>On this Web-site we will be discussing the Development of the internet,  its growth and currents trends in its development. </h4>
-			<hr>
-				<h4> Uses of the internet for a range of purposes including communication, research, collaboration and e commerce.
+				<h4><em>On this Web-site we will be discussing the Development of the internet, <br> its growth and currents trends in its development.</em> </h4>
+			
+				<h4><em> Uses of the internet for a range of purposes including communication,<br> research, collaboration and e commerce.</em>
 				</h4>	
-			<hr>
-				<h4>Appropriate enterprise software used to meet a range of business requirements. </h4>
-			<hr>
-				<h4>Uses of different web authoring applications to create web pages and management content. </h4>
+			
+				<h4><em>Appropriate enterprise software used to meet a range of business requirements.</em> </h4>
+		
+				<h4><em>Uses of different web authoring applications to create <br>web pages and management content. </em></h4>
 			
 		</aside>
 		
@@ -186,25 +206,36 @@ a:link
 	
 	<tr>
 	
+		<td> Russia became the worlds leader in technology when they launched the satellite, Sputnik. </td>
+		<td>1957</td>
+		
+	</tr>
+	
+	
+	<tr>
+	
 		<td>The Cold War was at its height and huge tensions existed between North America and the Soviet Union. Both superpowers were in possession of deadly nuclear weapons, and people lived in fear of long-range surprise attacks. The US realised it needed a communications system that could not be affected by a Soviet nuclear attack. <br>
 		<img src="images/pic1.png" alt="Old Communication System">
 		<h6>Back at that time they developed these really large computers and expensive machines exclusively used by military scientists and university staff. (Science-and-Media-Museum, 2023)</h6></td>
 		<td> 1950 </td>
 		
+		<tr>
+	
+		<td> To meet the demands of the U.S. Military researchers at Bells Labs developed a modem which converted digital signals to electricals signals and back, enabling communication between computers. (HistoryofInformation, 2023) <br><img src="images/belllabs.png" alt="Bells Labs"> </td>
+		<td> 1958 </td>
+		
+	</tr>
+		 <tr><td>The American Nation Standards Institute developed character encoding format for text data in computers.  (Loshin, 2023)</td>
+	<td>1963</td></tr>
+		
 	  <tr>
-    <td>First development of Host-to-Host network interaction was  introduced. It was developed by APRA (Advanced Research Projects Agency) of the Department of Defence. The agency realized that the computers that were increasingly popping up in offices, universities and military bases across the world and would be more useful if they could send data to each other over long distances. </td>
-    <td>1969</td>
+    <td>First development of Host-to-Host network interaction was  introduced. It was developed by APRA (Advanced Research Projects Agency) of the Department of Defence. The agency realized that the computers that were increasingly popping up in offices, universities and military bases across the world and would be more useful if they could send data to each other over long distances. The aim was to develop transistors and transmitters to fit into smaller devices for convenient internet usage for the general public</td>
+    <td>1969-1970</td>
  	 </tr>
 
 	
 	  <tr>
-    <td>The aim was to develop transistors and transmitters to fit into smaller devices for convenient internet usage for the general public</td>
-    <td>1970</td>
-  </tr>
-	
-	
-	  <tr>
-    <td>The development of TCP (Transmission Control Protocol) was adapted by researchers and technologists in order for different machines and networks from across the world to assemble data pockets. This activity caused an explosion on the internet. </td>
+    <td>The development of TCP (Transmission Control Protocol) was adapted by researchers and technologists in order for different machines and networks from across the world to assemble data pockets. This activity caused an explosion on the internet. <img src="images/tcp.png" alt="Transmission Control Protocol"> </td>
     <td>1980 </td>
   </tr>
 	
@@ -213,24 +244,66 @@ a:link
     <td>1986-1987</td>
   </tr>
 	  <tr>
-    <td>Tim Berners-Lee was a British computer scientist, worked at the CERN (the international particle-research laboratory) in Geneva who proposed a new way of structuring and linking all the information available on CERN’s computer network, making it quick and easy to access. His concept for a ‘web of information’ would ultimately become the World Wide Web.</td>
+    <td>Tim Berners-Lee was a British computer scientist, worked at the CERN (the international particle-research laboratory) in Geneva who proposed a new way of structuring and linking all the information available on CERN’s computer network, making it quick and easy to access. His concept for a ‘web of information’ would ultimately become the World Wide Web. <img src="images/tim.png" alt="Tim Berners-Lee"></td>
     <td>1989</td>
   </tr>
 	  <tr>
     <td>With the introduction of personal computers and the Mosaic browser the demand for commercial internet usage increased and with that the web browser was introduced, which followed the point-and-click approach and is now a widely used operation for the Internet users. People started to discover how easy it was to create their own HTML web pages and with that the number of websites grew from 130 in 1993 to over 100,000 at the starts of 1996. At this stage the World Wide Web had around 10 million users world-wide.</td>
     <td> 1993 </td>
   </tr>
+	
+	<tr><td> <p>First Online Newspaper The Telegraph</p> <img src="images/telepgraph.png" alt=" Telegraph"> <br></td>
+	<td>1995</td></tr>
 		
 	</tr>
+		
+		
+		<tr>
+			<td>Internet could be accessed from a PC using a dial up connection which involved telephone wires and connection was delivered through beeping sounds. The speed was extremely low. Internet access was limited and it was cheaper and faster to use at night. Web designers were rare and websites were mostly text based. There were no tabs and no search bars.</td>
+			<td>2000</td>
+		</tr>
+			
+				<tr>
+			<td><p>Companies and individuals that used internet, started to realise that they were able to use internet as a business tool to promote and sell their business. With development of WordPress it became easier to create websites without coding skills. And then came social media such as Facebook, LinkedIn, Youtube and MySpace.</p>
+					<img src="images/facebook.png" alt="Facebook"></td>
+			<td>2003-2006</td>
+		</tr>
+			
+				<tr>
+			<td><p>Mobile internet and the first iPhone came out, with its own internet browser. This was a real breakthrough and the trend to make elements and features more realistic spread from mobile to web design. Humanity was able to communicate from across the globe through calls and videos.</p>
+					<img src="images/iphone.png" alt="iPhone"></td>
+			<td>2007-2010</td>
+		</tr>
+			
+				<tr>
+			<td>Ethan Mercotte introduced the concept of responsive web design and with this the visual look of web and mobile web pages became quite similar. Simplifying became trendy, solid colors, minimum number of lines and a lot of clear space.</td>
+			<td>2010-2017</td>
+		</tr>
+			
+				<tr>
+			<td><p>Half of the world’s population was online. Laptops and desktop computers accounted for 56% of all web traffic. The speed of the internet usage, the security improvements, and the growth of online businesses and online shopping such as Amazon and eBay has evolved massively. Social Media has boomed and with time new apps have been developed such as Instagram, TikTok, Tinder and the old ones such as Google+ and Yahoo Messenger have twiddled away.</p>
+					<img src="images/ebayamazon.png" alt="eBay Amazon"></td>
+			<td>2017</td>
+		</tr>
+			
+				<tr>
+			<td>Fibre to the Home has multiplied the speed of the internet. 5G Mobile network connections have improved the speed on mobile devices. Online collaborations tools have been developed such as Microsoft Teams and Zoom. Cash Transfer tools such as Venmo, Revolut and other banking apps. </td>
+			<td>2020</td>
+		</tr>
 	
 </table>
 		
 		</section>
 		
-	<section>
+	<section class="conclusion">
 		
 		<p>The internet plays a significant role in our everyday lives. It is the most rapidly evolved and widely used technology in the world. As of right now, there are 4.66 billion users of the internet that is up to 60 percent of the whole global population.</p>
-		</section>	
+		<img src="images/world.png" alt="World">
+		
+		
+		
+
+	</section>	
 		</main>	
 		
 
